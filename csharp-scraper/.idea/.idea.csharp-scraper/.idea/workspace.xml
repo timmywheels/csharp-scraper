@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12628118-de98-4330-bb6c-b0b923b00964" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp-scraper/Controllers/Auth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/Controllers/Auth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp-scraper/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/Program.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +18,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/SampleDataController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="60">
               <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
-                <marker date="1550974567000" expanded="true" signature="6:128" ph="..." />
-                <marker date="1550974567000" expanded="true" signature="166:1236" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="251:1234" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="316:438" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="533:886" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="670:874" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="924:1228" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="1123:1218" ph="{...}" />
+                <marker date="1550966701501" expanded="true" signature="6:128" ph="..." />
+                <marker date="1550966701501" expanded="true" signature="166:1236" ph="{...}" />
+                <marker date="1550966701501" expanded="true" signature="251:1234" ph="{...}" />
+                <marker date="1550966701501" expanded="true" signature="316:438" ph="{...}" />
+                <marker date="1550966701501" expanded="true" signature="533:886" ph="{...}" />
+                <marker date="1550966701501" expanded="true" signature="670:874" ph="{...}" />
+                <marker date="1550966701501" expanded="true" signature="924:1228" ph="{...}" />
+                <marker date="1550966701501" expanded="true" signature="1123:1218" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -35,13 +37,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csharp-scraper/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <marker date="1550980244000" expanded="false" signature="6:289" ph="..." />
-                <marker date="1550980244000" expanded="true" signature="315:810" ph="{...}" />
-                <marker date="1550980244000" expanded="true" signature="342:808" ph="{...}" />
-                <marker date="1550980244000" expanded="true" signature="395:637" ph="{...}" />
+                <marker date="1551033422756" expanded="false" signature="6:289" ph="..." />
+                <marker date="1551033422756" expanded="true" signature="315:806" ph="{...}" />
+                <marker date="1551033422756" expanded="true" signature="342:804" ph="{...}" />
+                <marker date="1551033422756" expanded="true" signature="395:633" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -50,25 +52,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Auth.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+            <state relative-caret-position="-846">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding>
-                <marker date="1550981862000" expanded="false" signature="6:136" ph="..." />
-                <marker date="1550981862000" expanded="true" signature="174:3245" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="198:3243" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="292:3237" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="611:863" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="895:1068" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="1085:1378" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="1410:1550" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="1567:1848" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="1880:2025" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="2042:2333" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="2365:2505" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="2522:2815" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="2847:2995" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="3012:3117" ph="{...}" />
-                <marker date="1550981862000" expanded="true" signature="3149:3226" ph="{...}" />
+                <marker date="1551032931786" expanded="false" signature="6:171" ph="..." />
+                <marker date="1551032931786" expanded="true" signature="209:3789" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="233:3787" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="338:3781" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="436:651" ph="/* var wait = new DefaultWait&lt;IWebDriver&gt;(driver) ... */" />
+                <marker date="1551032931786" expanded="true" signature="817:1006" ph="/* wait.IgnoreExceptionTypes(typeof(NoSuchElementException)); ... */" />
+                <marker date="1551032931786" expanded="true" signature="1023:1275" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="1307:1480" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="1497:1786" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="1818:1958" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="1975:2252" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="2284:2429" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="2446:2881" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="2913:3053" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="3070:3359" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="3391:3539" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="3556:3661" ph="{...}" />
+                <marker date="1551032931786" expanded="true" signature="3693:3770" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,64 +81,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+            <state relative-caret-position="429">
+              <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
               <folding>
-                <marker date="1551018935000" expanded="false" signature="6:297" ph="..." />
-                <marker date="1551018935000" expanded="true" signature="336:2231" ph="{...}" />
-                <marker date="1551018935000" expanded="true" signature="367:2229" ph="{...}" />
-                <marker date="1551018935000" expanded="true" signature="434:2226" ph="{...}" />
-                <marker date="1551018935000" expanded="true" signature="446:2089" ph="{...}" />
-                <marker date="1551018935000" expanded="true" signature="1041:1962" ph="{...}" />
-                <marker date="1551018935000" expanded="true" signature="1999:2053" ph="{...}" />
-                <marker date="1551018935000" expanded="true" signature="2110:2222" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csharp-scraper/Properties/launchSettings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csharp-scraper/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              <folding>
-                <marker date="1550974567000" expanded="false" signature="6:296" ph="..." />
-                <marker date="1550974567000" expanded="true" signature="322:2025" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="349:2023" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="408:471" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="694:991" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="1179:2017" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="1226:1303" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="1320:1430" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="1575:1741" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="1774:2005" ph="{...}" />
-                <marker date="1550974567000" expanded="true" signature="1884:1991" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csharp-scraper/ClientApp/src/registerServiceWorker.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csharp-scraper/ClientApp/src/components/NavMenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1551034156209" expanded="false" signature="6:297" ph="..." />
+                <marker date="1551034156209" expanded="true" signature="336:2600" ph="{...}" />
+                <marker date="1551034156209" expanded="true" signature="370:2598" ph="{...}" />
+                <marker date="1551034156209" expanded="true" signature="456:2592" ph="{...}" />
+                <marker date="1551034156209" expanded="true" signature="482:2378" ph="{...}" />
+                <marker date="1551034156209" expanded="true" signature="1009:2332" ph="{...}" />
+                <marker date="1551034156209" expanded="true" signature="1164:2314" ph="{...}" />
+                <marker date="1551034156209" expanded="true" signature="2410:2582" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -142,18 +99,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tableRow</find>
+      <find>Click</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/csharp-scraper/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharp-scraper/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharp-scraper/Pages/Error.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/csharp-scraper/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Controllers/SampleDataController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Auth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/csharp-scraper/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/csharp-scraper/Pages/Error.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Credentials.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Auth.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -180,6 +143,7 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -202,6 +166,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="csharp-scraper" type="24d0babc:SolutionExplorerModelNode" />
               <item name="csharp-scraper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="csharp-scraper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="csharp-scraper" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -209,7 +179,6 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,11 +229,12 @@
       <workItem from="1550974673562" duration="3486000" />
       <workItem from="1550978402975" duration="7621000" />
       <workItem from="1551017700599" duration="1226000" />
+      <workItem from="1551020578223" duration="9876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16216000" />
+    <option name="totallyTimeSpent" value="26092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,10 +246,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1187399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11821086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -290,7 +259,7 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="NuGet" order="6" weight="0.32975295" />
+      <window_info anchor="bottom" id="NuGet" order="6" weight="0.32970297" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -298,14 +267,14 @@
       <window_info anchor="bottom" id="REST Client" order="11" weight="0.32975295" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32739726" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.27123287" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.27029702" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Errors In Solution" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.36187398" />
+      <window_info anchor="right" id="Run" order="6" visible="true" weight="0.39616615" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,75 +362,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/SampleDataController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="60">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
-            <marker date="1550974567000" expanded="true" signature="6:128" ph="..." />
-            <marker date="1550974567000" expanded="true" signature="166:1236" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="251:1234" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="316:438" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="533:886" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="670:874" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="924:1228" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="1123:1218" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csharp-scraper/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <marker date="1550980244000" expanded="false" signature="6:289" ph="..." />
-            <marker date="1550980244000" expanded="true" signature="315:810" ph="{...}" />
-            <marker date="1550980244000" expanded="true" signature="342:808" ph="{...}" />
-            <marker date="1550980244000" expanded="true" signature="395:637" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Auth.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
-          <folding>
-            <marker date="1550981862000" expanded="false" signature="6:136" ph="..." />
-            <marker date="1550981862000" expanded="true" signature="174:3245" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="198:3243" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="292:3237" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="611:863" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="895:1068" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="1085:1378" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="1410:1550" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="1567:1848" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="1880:2025" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="2042:2333" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="2365:2505" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="2522:2815" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="2847:2995" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="3012:3117" ph="{...}" />
-            <marker date="1550981862000" expanded="true" signature="3149:3226" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csharp-scraper/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <marker date="1550974567000" expanded="false" signature="6:296" ph="..." />
-            <marker date="1550974567000" expanded="true" signature="322:2025" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="349:2023" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="408:471" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="694:991" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="1179:2017" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="1226:1303" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="1320:1430" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="1575:1741" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="1774:2005" ph="{...}" />
-            <marker date="1550974567000" expanded="true" signature="1884:1991" ph="{...}" />
+            <marker date="1550966701501" expanded="true" signature="6:128" ph="..." />
+            <marker date="1550966701501" expanded="true" signature="166:1236" ph="{...}" />
+            <marker date="1550966701501" expanded="true" signature="251:1234" ph="{...}" />
+            <marker date="1550966701501" expanded="true" signature="316:438" ph="{...}" />
+            <marker date="1550966701501" expanded="true" signature="533:886" ph="{...}" />
+            <marker date="1550966701501" expanded="true" signature="670:874" ph="{...}" />
+            <marker date="1550966701501" expanded="true" signature="924:1228" ph="{...}" />
+            <marker date="1550966701501" expanded="true" signature="1123:1218" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -480,24 +391,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csharp-scraper/Properties/launchSettings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="390">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csharp-scraper/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1551033422756" expanded="false" signature="6:289" ph="..." />
+            <marker date="1551033422756" expanded="true" signature="315:806" ph="{...}" />
+            <marker date="1551033422756" expanded="true" signature="342:804" ph="{...}" />
+            <marker date="1551033422756" expanded="true" signature="395:633" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csharp-scraper/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <marker date="1550966701540" expanded="false" signature="6:296" ph="..." />
+            <marker date="1550966701540" expanded="true" signature="322:2025" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="349:2023" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="408:471" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="694:991" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="1179:2017" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="1226:1303" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="1320:1430" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="1575:1741" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="1774:2005" ph="{...}" />
+            <marker date="1550966701540" expanded="true" signature="1884:1991" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Auth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <marker date="1551032931786" expanded="false" signature="6:171" ph="..." />
+            <marker date="1551032931786" expanded="true" signature="209:3789" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="233:3787" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="338:3781" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="436:651" ph="/* var wait = new DefaultWait&lt;IWebDriver&gt;(driver) ... */" />
+            <marker date="1551032931786" expanded="true" signature="817:1006" ph="/* wait.IgnoreExceptionTypes(typeof(NoSuchElementException)); ... */" />
+            <marker date="1551032931786" expanded="true" signature="1023:1275" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="1307:1480" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="1497:1786" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="1818:1958" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="1975:2252" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="2284:2429" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="2446:2881" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="2913:3053" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="3070:3359" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="3391:3539" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="3556:3661" ph="{...}" />
+            <marker date="1551032931786" expanded="true" signature="3693:3770" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+        <state relative-caret-position="429">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
-            <marker date="1551018935000" expanded="false" signature="6:297" ph="..." />
-            <marker date="1551018935000" expanded="true" signature="336:2231" ph="{...}" />
-            <marker date="1551018935000" expanded="true" signature="367:2229" ph="{...}" />
-            <marker date="1551018935000" expanded="true" signature="434:2226" ph="{...}" />
-            <marker date="1551018935000" expanded="true" signature="446:2089" ph="{...}" />
-            <marker date="1551018935000" expanded="true" signature="1041:1962" ph="{...}" />
-            <marker date="1551018935000" expanded="true" signature="1999:2053" ph="{...}" />
-            <marker date="1551018935000" expanded="true" signature="2110:2222" ph="{...}" />
+            <marker date="1551034156209" expanded="false" signature="6:297" ph="..." />
+            <marker date="1551034156209" expanded="true" signature="336:2600" ph="{...}" />
+            <marker date="1551034156209" expanded="true" signature="370:2598" ph="{...}" />
+            <marker date="1551034156209" expanded="true" signature="456:2592" ph="{...}" />
+            <marker date="1551034156209" expanded="true" signature="482:2378" ph="{...}" />
+            <marker date="1551034156209" expanded="true" signature="1009:2332" ph="{...}" />
+            <marker date="1551034156209" expanded="true" signature="1164:2314" ph="{...}" />
+            <marker date="1551034156209" expanded="true" signature="2410:2582" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -12,79 +12,65 @@ using OpenQA.Selenium.Support.UI;
 
 namespace csharp_scraper.Controllers
 {
-	public class Service : Auth
-	{
-		public static void run(IWebDriver driver, WebDriverWait wait)
-		{
+    public class Service : Auth
+    {
+        public static void Run(IWebDriver driver, DefaultWait<IWebDriver> wait)
+        {
+            try
+            {
+                ReadOnlyCollection<IWebElement> stockData = wait.Until(element =>
+                    element.FindElements(
+                        By.CssSelector("#data-util-col > section:nth-child(1) > table > tbody > tr > td")));
 
-			try
-			{
+                Console.WriteLine("Collecting data...");
 
-			Console.WriteLine("Collecting data...");
-			var dataTable = wait.Until(webDriver =>
-				webDriver.FindElement(By.XPath(
-					"/html/body/div[1]/div/div/div[1]/div/div[3]/div[2]/div/div/div/div/div/div[3]/div/div/section/div/section[1]/table/tbody/tr[1]")));
-			ReadOnlyCollection<IWebElement> stockData =
-				driver.FindElements(By.CssSelector("#data-util-col > section:nth-child(1) > table > tbody > tr > td"));
+                var stockList = new List<string>();
 
-			var stockList = new List<string>();
+                var singleStock = new List<string>();
 
-			var singleStock = new List<string>();
+                const int totalDataPointsPerStock = 4;
 
-			var totalDataPointsPerStock = 4;
+                foreach (var stockDataCell in stockData)
+                {
+                    singleStock.Add(stockDataCell.Text.Trim());
 
-			foreach (IWebElement stockDataCell in stockData) {
+                    if (singleStock.Count() == totalDataPointsPerStock)
+                    {
+                        var companyNameAndSymbol =
+                            singleStock[0].Split(new[] {"\r\n", "\r", "\n"}, StringSplitOptions.None);
 
+                        var symbol = companyNameAndSymbol[0];
+                        Console.WriteLine("symbol: {0}", symbol);
 
-				if (singleStock.Count() != totalDataPointsPerStock) continue;
+                        var companyName = companyNameAndSymbol[1];
+                        Console.WriteLine("companyName: {0}", companyName);
 
-				stockList.AddRange(singleStock);
+                        var lastPrice = singleStock[1];
+                        Console.WriteLine("lastPrice: {0}", lastPrice);
 
-				var companyNameAndSymbol = singleStock[0].Split(
-					new[] { "\r\n", "\r", "\n" },
-					StringSplitOptions.None
-				);
+                        var change = singleStock[2];
+                        Console.WriteLine("change: {0}", change);
 
-				var symbol = companyNameAndSymbol[0];
-				Console.WriteLine("symbol: {0}", symbol);
+                        var percentChange = singleStock[3];
+                        Console.WriteLine("percentChange: {0}", percentChange);
 
-				var companyName = companyNameAndSymbol[1];
-				Console.WriteLine("companyName: {0}", companyName);
+                        Console.WriteLine("====================");
 
-				var lastPrice = singleStock[1];
-				Console.WriteLine("lastPrice: {0}", lastPrice);
+                        //Store.data(timeStamp, symbol, companyName, lastPrice, change, percentChange);
 
-				var change = singleStock[2];
-				Console.WriteLine("change: {0}", change);
+                        stockList.AddRange(singleStock);
+                        singleStock = new List<string>();
+                    }
+                }
 
-				var percentChange = singleStock[3];
-				Console.WriteLine("percentChange: {0}", percentChange);
-
-				Console.WriteLine("====================");
-
-//					Store.data(timeStamp, symbol, companyName, lastPrice, change, percentChange);
-
-				singleStock.Add(stockDataCell.Text.Trim());
-				singleStock = new List<string>();
-			}
-
-			foreach (var stock in stockList)
-			{
-				Console.WriteLine("stock: {0}", stock);
-			}
-			{
-
-			}
-
-			driver.Quit();
-
-			} catch (Exception e) {
-				Console.WriteLine("Could not collect data!");
-				Console.WriteLine(e.ToString());
-				driver.Quit();
-			}
-		}
-	}
+                driver.Quit();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Could not collect data!");
+                Console.WriteLine(e.ToString());
+                //driver.Quit();
+            }
+        }
+    }
 }
-
-

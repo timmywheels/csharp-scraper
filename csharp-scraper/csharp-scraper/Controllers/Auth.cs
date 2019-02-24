@@ -1,5 +1,6 @@
 using System;
 using Microsoft.CodeAnalysis.Text;
+using Microsoft.IdentityModel.Xml;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
@@ -8,16 +9,24 @@ namespace csharp_scraper.Controllers
 {
     public class Auth
     {
+          
         public static void WebClient(string loginUrl, string username, string password)
         {
-
+            
             var driver = new FirefoxDriver("/Library/Java/Extensions");
 
-            WebDriverWait wait =
-                new WebDriverWait(driver, TimeSpan.FromSeconds(10));
 
-            var options = new FirefoxOptions();
-//            options.SetLoggingPreference(null, LogLevel.Severe);
+//            var wait = new DefaultWait<IWebDriver>(driver)
+//            {
+//                Timeout = TimeSpan.FromSeconds(10),
+//                PollingInterval = TimeSpan.FromMilliseconds(1000)
+//            };
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait.PollingInterval = TimeSpan.FromMilliseconds(500);
+            //wait.IgnoreExceptionTypes(typeof(NoSuchElementException));
+
+            //var options = new FirefoxOptions();
+            //options.SetLoggingPreference(LogType.Browser, LogLevel.Severe);
 
             try
             {
@@ -36,7 +45,7 @@ namespace csharp_scraper.Controllers
             try
             {
                 // 2. ENTER USERNAME
-                var usernameInput = wait.Until(webDriver => webDriver.FindElement(By.CssSelector("#login-username")));
+                var usernameInput = wait.Until(element => element.FindElement(By.CssSelector("#login-username")));
                 usernameInput.SendKeys(username);
                 Console.WriteLine("Entering username...");
             }
@@ -49,7 +58,7 @@ namespace csharp_scraper.Controllers
             try
             {
                 // 3. CLICK NEXT BUTTON
-                var nextButton = wait.Until(webDriver => webDriver.FindElement(By.CssSelector("#login-signin")));
+                var nextButton = wait.Until(element => element.FindElement(By.CssSelector("#login-signin")));
                 nextButton.Click();
                 Console.WriteLine("'Next' button clicked...");
             }
@@ -62,7 +71,9 @@ namespace csharp_scraper.Controllers
             try
             {
                 // 4. ENTER PASSWORD
-                var passwordInput = wait.Until(webDriver => webDriver.FindElement(By.CssSelector("#login-passwd")));
+                var passwordInput = wait.Until(element => element.FindElement(By.CssSelector("#login-passwd")));
+                //var passwordInput = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.CssSelector("#login-passwd")));
+
                 passwordInput.SendKeys(password);
                 Console.WriteLine("Entering password...");
             }
@@ -75,7 +86,7 @@ namespace csharp_scraper.Controllers
             try
             {
                 // 5. CLICK 'SIGN-IN' BUTTON
-                var signInButton = wait.Until(webDriver => webDriver.FindElement(By.CssSelector("#login-signin")));
+                var signInButton = wait.Until(element => element.FindElement(By.CssSelector("#login-signin")));
                 signInButton.Click();
                 Console.WriteLine("'Sign-in' button clicked...");
             }
@@ -88,7 +99,7 @@ namespace csharp_scraper.Controllers
             try
             {
                 // 6. SCRAPE DATA
-                Service.run(driver, wait);
+                Service.Run(driver, wait);
             }
             catch (Exception e)
             {
