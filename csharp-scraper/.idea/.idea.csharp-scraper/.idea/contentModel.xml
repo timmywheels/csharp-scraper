@@ -3,6 +3,8 @@
   <component name="ContentModelStore">
     <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_csharp-scraper.1094836396.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="csharp-scraper" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
@@ -48,10 +50,16 @@
         <e p="Controllers" t="Include">
           <e p="Auth.cs" t="Include" />
           <e p="Credentials.cs" t="Include" />
+          <e p="Data.cs" t="Include" />
           <e p="SampleDataController.cs" t="Include" />
           <e p="Service.cs" t="Include" />
+          <e p="stock_portfolio.db" t="Include" />
+          <e p="Store.cs" t="Include" />
         </e>
         <e p="csharp-scraper.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="stock_portfolio.db" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">
