@@ -51,6 +51,7 @@
           <e p="Auth.cs" t="Include" />
           <e p="Credentials.cs" t="Include" />
           <e p="Data.cs" t="Include" />
+          <e p="Fetch.cs" t="Include" />
           <e p="SampleDataController.cs" t="Include" />
           <e p="Service.cs" t="Include" />
           <e p="stock_portfolio.db" t="Include" />

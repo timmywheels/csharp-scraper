@@ -11,11 +11,11 @@ namespace csharp_scraper.Controllers
         public static void Data(int timeStamp, string symbol, string companyName, string lastPrice, string
             change, string percentChange)
         {
-            Console.WriteLine("Saving data...");
             var sql = new SQLiteCommand("INSERT INTO stocks(timeStamp, symbol, companyName, lastPrice, change, percentChange) VALUES(?,?,?,?,?,?)", connect());
 
             try
             {
+                Console.WriteLine("Saving data...");
                 sql.Parameters.AddWithValue("timeStamp", timeStamp);
                 sql.Parameters.AddWithValue("symbol", symbol);
                 sql.Parameters.AddWithValue("companyName", companyName);

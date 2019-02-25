@@ -9,7 +9,7 @@ namespace csharp_scraper.Controllers
         {
             const string url = "/Users/timothywheeler/RiderProjects/csharp-scraper/csharp-scraper/csharp-scraper/Models/stock_portfolio.db";
 
-            SQLiteConnection db = new SQLiteConnection("Data Source=" + url);
+            var db = new SQLiteConnection("Data Source=" + url);
             
             try
             {

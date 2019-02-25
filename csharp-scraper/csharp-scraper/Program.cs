@@ -15,10 +15,11 @@ namespace csharp_scraper
     {
         public static void Main(string[] args)
         {
-            Service service = new Service();
-
+//            Service service = new Service();
+//
             var keys = new Credentials();
             Auth.WebClient(keys.LoginUrl, keys.Username, keys.Password);
+               // Fetch.Data();
 
 //            CreateWebHostBuilder(args).Build().Run();
         }
