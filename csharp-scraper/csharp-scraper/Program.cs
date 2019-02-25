@@ -17,9 +17,9 @@ namespace csharp_scraper
         {
 //            Service service = new Service();
 //
-            var keys = new Credentials();
-            Auth.WebClient(keys.LoginUrl, keys.Username, keys.Password);
-               // Fetch.Data();
+//            var keys = new Credentials();
+//            Auth.WebClient(keys.LoginUrl, keys.Username, keys.Password);
+               Fetch.Data();
 
 //            CreateWebHostBuilder(args).Build().Run();
         }

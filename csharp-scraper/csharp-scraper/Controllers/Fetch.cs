@@ -8,32 +8,32 @@ namespace csharp_scraper.Controllers
     {
         public static void Data()
         {
-            var sql = new SQLiteCommand("SELECT timeStamp, symbol, companyName, lastPrice, change, percentChange FROM stocks");
 
+            var db = connect();
             try
             {
-                var db = connect();
-                db.Open();
-                var reader = sql.ExecuteReader();
+                const string sql = "SELECT timeStamp, symbol, companyName, lastPrice, change, percentChange FROM stocks";
+                var command = new SQLiteCommand(sql, db);
+                var reader = command.ExecuteReader();
                 Console.WriteLine("Fetching data...");
 
                 while (reader.Read())
                 {
-                    Console.WriteLine(reader["timeStamp"].ToString());
+                    Console.WriteLine(reader["timeStamp"]);
                     Console.WriteLine(reader["symbol"].ToString());
                     Console.WriteLine(reader["companyName"].ToString());
                     Console.WriteLine(reader["lastPrice"].ToString());
                     Console.WriteLine(reader["change"].ToString());
                     Console.WriteLine(reader["percentChange"].ToString());
                 }
-                
+
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
             }
         }
-        
-        
+
+
     }
 }

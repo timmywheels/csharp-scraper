@@ -16,11 +16,12 @@ namespace csharp_scraper.Controllers
     public class Service : Auth
     {
 
-        public static int getCurrentTimeStamp()
+        public static DateTime getCurrentTimeStamp()
         {
-            return (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+            var currentTimeStamp = DateTime.Now;
+            return currentTimeStamp;
         }
-        
+
         public static void Run(IWebDriver driver, DefaultWait<IWebDriver> wait)
         {
             try
@@ -37,18 +38,17 @@ namespace csharp_scraper.Controllers
 
                 var timeStamp = getCurrentTimeStamp();
 
-                
                 foreach (var stockDataCell in stockData)
                 {
                     singleStock.Add(stockDataCell.Text.Trim());
 
                     if (singleStock.Count() != totalDataPointsPerStock) continue;
-                    
+
                     var companyNameAndSymbol =
                         singleStock[0].Split(new[] {"\r\n", "\r", "\n"}, StringSplitOptions.None);
 
                     Console.WriteLine("timeStamp: {0}", timeStamp);
-                        
+
                     var symbol = companyNameAndSymbol[0];
                     Console.WriteLine("symbol: {0}", symbol);
 
@@ -73,7 +73,7 @@ namespace csharp_scraper.Controllers
                 }
 
                 driver.Quit();
-               
+
             }
             catch (Exception e)
             {

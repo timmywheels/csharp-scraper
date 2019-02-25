@@ -54,7 +54,6 @@
           <e p="Fetch.cs" t="Include" />
           <e p="SampleDataController.cs" t="Include" />
           <e p="Service.cs" t="Include" />
-          <e p="stock_portfolio.db" t="Include" />
           <e p="Store.cs" t="Include" />
         </e>
         <e p="csharp-scraper.csproj" t="IncludeRecursive" />

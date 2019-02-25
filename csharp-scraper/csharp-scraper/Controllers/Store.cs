@@ -8,7 +8,7 @@ namespace csharp_scraper.Controllers
 {
     public class Store : Data
     {
-        public static void Data(int timeStamp, string symbol, string companyName, string lastPrice, string
+        public static void Data(DateTime timeStamp, string symbol, string companyName, string lastPrice, string
             change, string percentChange)
         {
             var sql = new SQLiteCommand("INSERT INTO stocks(timeStamp, symbol, companyName, lastPrice, change, percentChange) VALUES(?,?,?,?,?,?)", connect());
@@ -30,6 +30,6 @@ namespace csharp_scraper.Controllers
                 Console.WriteLine(e.ToString());
             }
 
-        }       
+        }
     }
 }
