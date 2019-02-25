@@ -19,7 +19,7 @@ namespace csharp_scraper
 //
 //            var keys = new Credentials();
 //            Auth.WebClient(keys.LoginUrl, keys.Username, keys.Password);
-               Fetch.Data();
+               Api.server();
 
 //            CreateWebHostBuilder(args).Build().Run();
         }

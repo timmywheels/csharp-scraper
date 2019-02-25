@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12628118-de98-4330-bb6c-b0b923b00964" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/dataSources/60283cac-129d-46ed-b61f-1dbb53a92f99.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/dataSources/60283cac-129d-46ed-b61f-1dbb53a92f99/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/dataSources/648c7330-eaaf-464f-b021-50aa7921eb50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/dataSources/648c7330-eaaf-464f-b021-50aa7921eb50/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/csharp-scraper/Controllers/Api.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.csharp-scraper/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csharp-scraper/Controllers/Fetch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/Controllers/Fetch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csharp-scraper/Controllers/Store.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/Controllers/Store.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csharp-scraper/Controllers/stock_portfolio.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csharp-scraper/Models/stock_portfolio.db" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/Models/stock_portfolio.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csharp-scraper/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp-scraper/csharp-scraper.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/csharp-scraper/csharp-scraper.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,17 +72,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csharp-scraper/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="178">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
-                <marker date="1551060835000" expanded="false" signature="6:289" ph="..." />
-                <marker date="1551060835000" expanded="true" signature="315:843" ph="{...}" />
-                <marker date="1551060835000" expanded="true" signature="342:841" ph="{...}" />
-                <marker date="1551060835000" expanded="true" signature="395:670" ph="{...}" />
-                <marker date="1551060835000" expanded="true" signature="406:574" ph="/* Service service = new Service(); ... */" />
+                <marker date="1551073932000" expanded="false" signature="6:289" ph="..." />
+                <marker date="1551073932000" expanded="true" signature="315:843" ph="{...}" />
+                <marker date="1551073932000" expanded="true" signature="342:841" ph="{...}" />
+                <marker date="1551073932000" expanded="true" signature="395:670" ph="{...}" />
+                <marker date="1551073932000" expanded="true" signature="406:574" ph="/* Service service = new Service(); ... */" />
               </folding>
             </state>
           </provider>
@@ -100,16 +91,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Fetch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="-408">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
-                <marker date="1551069565000" expanded="true" signature="6:58" ph="..." />
-                <marker date="1551069565000" expanded="true" signature="96:1164" ph="{...}" />
-                <marker date="1551069565000" expanded="true" signature="128:1162" ph="{...}" />
-                <marker date="1551069565000" expanded="true" signature="168:1154" ph="{...}" />
-                <marker date="1551069565000" expanded="true" signature="227:1035" ph="{...}" />
-                <marker date="1551069565000" expanded="true" signature="569:1020" ph="{...}" />
-                <marker date="1551069565000" expanded="true" signature="1067:1144" ph="{...}" />
+                <marker date="1551073856000" expanded="true" signature="6:168" ph="..." />
+                <marker date="1551073856000" expanded="true" signature="206:1868" ph="{...}" />
+                <marker date="1551073856000" expanded="true" signature="238:1866" ph="{...}" />
+                <marker date="1551073856000" expanded="true" signature="273:515" ph="{...}" />
+                <marker date="1551073856000" expanded="true" signature="552:1858" ph="{...}" />
+                <marker date="1551073856000" expanded="true" signature="689:1713" ph="{...}" />
+                <marker date="1551073856000" expanded="true" signature="1031:1563" ph="{...}" />
+                <marker date="1551073856000" expanded="true" signature="1745:1822" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Api.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <marker date="1551073934000" expanded="true" signature="75:162" ph="{...}" />
+                <marker date="1551073934000" expanded="true" signature="103:160" ph="{...}" />
+                <marker date="1551073934000" expanded="true" signature="137:156" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -132,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="89">
@@ -195,6 +201,7 @@
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Api.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Pages/Error.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Controllers/SampleDataController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs" root0="FORCE_HIGHLIGHTING" />
@@ -211,10 +218,11 @@
         <option value="$PROJECT_DIR$/csharp-scraper/Controllers/Credentials.cs" />
         <option value="$PROJECT_DIR$/csharp-scraper/Controllers/Auth.cs" />
         <option value="$PROJECT_DIR$/csharp-scraper/Controllers/Data.cs" />
-        <option value="$PROJECT_DIR$/csharp-scraper/Program.cs" />
-        <option value="$PROJECT_DIR$/csharp-scraper/Controllers/Fetch.cs" />
         <option value="$PROJECT_DIR$/csharp-scraper/Controllers/Store.cs" />
         <option value="$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs" />
+        <option value="$PROJECT_DIR$/csharp-scraper/Controllers/Fetch.cs" />
+        <option value="$PROJECT_DIR$/csharp-scraper/Controllers/Api.cs" />
+        <option value="$PROJECT_DIR$/csharp-scraper/Program.cs" />
       </list>
     </option>
   </component>
@@ -327,7 +335,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42275000" />
+    <option name="totallyTimeSpent" value="44870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,7 +350,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18093699" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18093699" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -353,14 +361,14 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="NuGet" order="6" weight="0.32953367" />
+      <window_info anchor="bottom" id="NuGet" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="REST Client" order="11" weight="0.32975295" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="13" visible="true" weight="0.36580312" />
+      <window_info anchor="bottom" id="Build" order="13" visible="true" weight="0.3657534" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32642487" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -369,7 +377,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Errors In Solution" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.27948305" />
-      <window_info anchor="right" id="Run" order="6" weight="0.41357028" />
+      <window_info anchor="right" id="Run" order="6" visible="true" weight="0.41357028" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,36 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csharp-scraper/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <marker date="1551060835000" expanded="false" signature="6:289" ph="..." />
-            <marker date="1551060835000" expanded="true" signature="315:843" ph="{...}" />
-            <marker date="1551060835000" expanded="true" signature="342:841" ph="{...}" />
-            <marker date="1551060835000" expanded="true" signature="395:670" ph="{...}" />
-            <marker date="1551060835000" expanded="true" signature="406:574" ph="/* Service service = new Service(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Fetch.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <marker date="1551069565000" expanded="true" signature="6:58" ph="..." />
-            <marker date="1551069565000" expanded="true" signature="96:1164" ph="{...}" />
-            <marker date="1551069565000" expanded="true" signature="128:1162" ph="{...}" />
-            <marker date="1551069565000" expanded="true" signature="168:1154" ph="{...}" />
-            <marker date="1551069565000" expanded="true" signature="227:1035" ph="{...}" />
-            <marker date="1551069565000" expanded="true" signature="569:1020" ph="{...}" />
-            <marker date="1551069565000" expanded="true" signature="1067:1144" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Store.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -624,6 +602,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <marker date="1551070114000" expanded="false" signature="6:342" ph="..." />
+            <marker date="1551070114000" expanded="true" signature="381:2773" ph="{...}" />
+            <marker date="1551070114000" expanded="true" signature="415:2771" ph="{...}" />
+            <marker date="1551070114000" expanded="true" signature="475:581" ph="{...}" />
+            <marker date="1551070114000" expanded="true" signature="662:2765" ph="{...}" />
+            <marker date="1551070114000" expanded="true" signature="688:2553" ph="{...}" />
+            <marker date="1551070114000" expanded="true" signature="1213:2506" ph="{...}" />
+            <marker date="1551070114000" expanded="true" signature="2585:2755" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Data.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -639,19 +634,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Service.cs">
+    <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Fetch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="-408">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
-            <marker date="1551070114000" expanded="false" signature="6:342" ph="..." />
-            <marker date="1551070114000" expanded="true" signature="381:2773" ph="{...}" />
-            <marker date="1551070114000" expanded="true" signature="415:2771" ph="{...}" />
-            <marker date="1551070114000" expanded="true" signature="475:581" ph="{...}" />
-            <marker date="1551070114000" expanded="true" signature="662:2765" ph="{...}" />
-            <marker date="1551070114000" expanded="true" signature="688:2553" ph="{...}" />
-            <marker date="1551070114000" expanded="true" signature="1213:2506" ph="{...}" />
-            <marker date="1551070114000" expanded="true" signature="2585:2755" ph="{...}" />
+            <marker date="1551073856000" expanded="true" signature="6:168" ph="..." />
+            <marker date="1551073856000" expanded="true" signature="206:1868" ph="{...}" />
+            <marker date="1551073856000" expanded="true" signature="238:1866" ph="{...}" />
+            <marker date="1551073856000" expanded="true" signature="273:515" ph="{...}" />
+            <marker date="1551073856000" expanded="true" signature="552:1858" ph="{...}" />
+            <marker date="1551073856000" expanded="true" signature="689:1713" ph="{...}" />
+            <marker date="1551073856000" expanded="true" signature="1031:1563" ph="{...}" />
+            <marker date="1551073856000" expanded="true" signature="1745:1822" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csharp-scraper/Controllers/Api.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <marker date="1551073934000" expanded="true" signature="75:162" ph="{...}" />
+            <marker date="1551073934000" expanded="true" signature="103:160" ph="{...}" />
+            <marker date="1551073934000" expanded="true" signature="137:156" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csharp-scraper/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <marker date="1551073932000" expanded="false" signature="6:289" ph="..." />
+            <marker date="1551073932000" expanded="true" signature="315:843" ph="{...}" />
+            <marker date="1551073932000" expanded="true" signature="342:841" ph="{...}" />
+            <marker date="1551073932000" expanded="true" signature="395:670" ph="{...}" />
+            <marker date="1551073932000" expanded="true" signature="406:574" ph="/* Service service = new Service(); ... */" />
           </folding>
         </state>
       </provider>

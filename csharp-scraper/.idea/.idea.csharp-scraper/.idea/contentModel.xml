@@ -48,6 +48,7 @@
           </e>
         </e>
         <e p="Controllers" t="Include">
+          <e p="Api.cs" t="Include" />
           <e p="Auth.cs" t="Include" />
           <e p="Credentials.cs" t="Include" />
           <e p="Data.cs" t="Include" />

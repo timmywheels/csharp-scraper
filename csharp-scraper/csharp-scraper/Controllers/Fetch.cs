@@ -1,14 +1,28 @@
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
+using System.Security.Cryptography.X509Certificates;
+using Newtonsoft.Json;
 
 namespace csharp_scraper.Controllers
 {
     public class Fetch : Data
     {
-        public static void Data()
+        private struct Stock
         {
+            public object timeStamp;
+            public string symbol;
+            public string companyName;
+            public string lastPrice;
+            public string change;
+            public string percentChange;
+        }
 
+        public static string data()
+        {
+            List<Stock> stocks = new List<Stock>();
+            var json = "";
             var db = connect();
             try
             {
@@ -19,19 +33,26 @@ namespace csharp_scraper.Controllers
 
                 while (reader.Read())
                 {
-                    Console.WriteLine(reader["timeStamp"]);
-                    Console.WriteLine(reader["symbol"].ToString());
-                    Console.WriteLine(reader["companyName"].ToString());
-                    Console.WriteLine(reader["lastPrice"].ToString());
-                    Console.WriteLine(reader["change"].ToString());
-                    Console.WriteLine(reader["percentChange"].ToString());
+                    Stock stock = new Stock();
+                    stock.timeStamp = reader["timeStamp"];
+                    stock.symbol = reader["symbol"].ToString();
+                    stock.companyName = reader["companyName"].ToString();
+                    stock.lastPrice = reader["lastPrice"].ToString();
+                    stock.change = reader["change"].ToString();
+                    stock.percentChange = reader["percentChange"].ToString();
+
+                    stocks.Add(stock);
                 }
+                json = JsonConvert.SerializeObject(stocks, Formatting.Indented);
+                Console.WriteLine("JSON: {0}", json);
 
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
             }
+
+            return json;
         }
 
 
